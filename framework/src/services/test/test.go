@@ -16,18 +16,8 @@ func Test(r *bokchoy.Request) error {
 
 func TestMutil(payload interface{}) {
 	fmt.Println("TestMutil", conv.String(payload))
-	// fmt.Println("Payload:", r.Task.Payload)
-	//
-	// return errors.New("出粗了")
 }
 
 func TestQueue(payload interface{}) {
 	fmt.Println("Receive request", payload)
-	// fmt.Println("Payload:", r.Task.Payload)
-
-	// queue.PushFunc(func() {
-	// 	// r.Task.Payload
-	// })
-	// queue.Enqueue()
-
 }
